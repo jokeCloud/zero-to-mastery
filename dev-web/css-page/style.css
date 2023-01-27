@@ -1,0 +1,104 @@
+/*
+Selector {
+    Property: value;
+}
+*/
+
+body {
+    /* margin: 0;
+    padding: 0; */
+    background-image: url(masahiro-miyagi.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: unset;
+}
+
+* {
+    font-size: 23px;
+    font-family: sans-serif;
+    text-align: right;
+}
+
+h2 {
+    color: orangered;
+    font-size: 46px;
+    background-color: darkslategrey;
+    text-align: center;
+    border: 5px solid rgb(138, 43, 226)
+}
+
+p {
+    font-weight: bold;
+    font-size: 80%;
+    font-family: 'Poiret One', cursive;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    float: right;
+    border-radius: 100px;
+}
+
+p,
+a {
+    color: lightskyblue;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.paragraph {
+    text-align: center;
+}
+
+.active {
+    color: darkorange;
+}
+
+#div1 {
+    background-color: rgba(47, 79, 79, 0.8);
+}
+
+#div2 {
+    background-color: rgba(138, 43, 226, 0.5);
+}
+
+#div3 {
+    background-color: rgba(47, 79, 79, 0.8);
+}
+
+#div4 {
+    background-color: rgba(138, 43, 226, 0.5);
+}
+
+#div3 .paragraph:last-child {
+    color: darkorange;
+}
+
+#div4 .paragraph:first-child {
+    color: darkorange;
+}
+
+.heart {
+    color: red;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
+}

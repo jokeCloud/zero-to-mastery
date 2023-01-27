@@ -1,0 +1,47 @@
+/*
+Selector {
+    Property: value;
+}
+*/
+
+html {
+    font-size: 67.5%;
+}
+
+* {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: yellowgreen;
+    font-size: 38px;
+    background-color: darkslategrey;
+}
+
+p {
+    color: purple;
+}
+
+a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+li {
+    list-style: none;
+}
+
+/* 
+.boxmodel {
+    border: 5px solid darkmagenta;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 0px 20px;
+    width: 33px;
+    height: 50px;
+} */
+
+span {
+    font-size: 5rem;
+}
