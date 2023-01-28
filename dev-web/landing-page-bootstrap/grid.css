@@ -1,0 +1,8 @@
+.col {
+    background-color: rgb(45, 38, 72);
+    border: solid 2px #7c1C90;
+    color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
